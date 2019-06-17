@@ -1,0 +1,22 @@
+.top-tool-bar {
+    background-color: transparent;
+    border: none;
+}
+.top-tool-bar .x-btn-default-toolbar-small {
+    right: auto;
+    left: 1107px;
+    top: 0px;
+    margin: 0px;
+    font-weight: normal;
+    background: none;
+    border: 1px solid transparent;
+    box-shadow: none;
+    color: #FFF;
+    background-color: #0095ff;
+    border: 1px solid #07c;
+    margin-left: 10px;
+    box-shadow: inset 0 1px 0 #66bfff;
+}
+.top-tool-bar .x-btn-default-toolbar-small span {
+    color: antiquewhite
+}
