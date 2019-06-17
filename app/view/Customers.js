@@ -2,6 +2,10 @@ Ext.define('StudentApp.view.Customers', {
     extend: 'Ext.grid.Panel',
     id: 'customersGrid',
     config: {},
+    // constructor : function(config){
+    //     this.initConfig(config);
+    //     return this.callParent(arguments);
+    // },
     width: '100%',
     height: 400,
     selType: 'checkboxmodel',
@@ -60,5 +64,10 @@ Ext.define('StudentApp.view.Customers', {
             allowBlank: true
         }
     }],
+
+
+    
+
+
 
 });

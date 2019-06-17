@@ -1,6 +1,6 @@
 {
-    "name": "HomeApp",
-    "namespace": "HomeApp",
+    "name": "StudentApp",
+    "namespace": "StudentApp",
     "version": "1.0.0.0",
     "framework": "ext",
 
@@ -64,13 +64,13 @@
     "sass": {
         /**
          * The root namespace to use when mapping *.scss files to classes in the
-         * sass/src and sass/var directories. For example, "HomeApp.view.Foo" would
-         * map to "sass/src/view/Foo.scss". If we changed this to "HomeApp.view" then
+         * sass/src and sass/var directories. For example, "StudentApp.view.Foo" would
+         * map to "sass/src/view/Foo.scss". If we changed this to "StudentApp.view" then
          * it would map to "sass/src/Foo.scss". To style classes outside the app's
          * root namespace, change this to "". Doing so would change the mapping of
-         * "HomeApp.view.Foo" to "sass/src/HomeApp/view/Foo.scss".
+         * "StudentApp.view.Foo" to "sass/src/StudentApp/view/Foo.scss".
          */
-        "namespace": "HomeApp",
+        "namespace": "StudentApp",
 
         /**
          * Generated sass source settings
@@ -547,5 +547,5 @@
      * Uniquely generated id for this application, used as prefix for localStorage keys.
      * Normally you should never change this value.
      */
-    "id": "ec49d0c8-b0f7-482d-adaf-cd0146cad655"
+    "id": "cca22b38-4e6c-4581-89d8-35c1c2217511"
 }

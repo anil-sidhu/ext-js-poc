@@ -5,10 +5,10 @@ Ext.define('StudentApp.store.Customers',
         proxy:
         {
             type: 'ajax',
-            url: 'https://jsonplaceholder.typicode.com/users/1',
+            url: 'http://localhost:4000/api/customers',
             reader:
             {
-                rootProperty: '',
+                rootProperty: 'customers',
                 type: 'json'
             }
 
